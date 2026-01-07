@@ -96,35 +96,71 @@
     <!-- About Section -->
     <section class="py-20 relative">
       <div class="container mx-auto px-4">
-        <div class="max-w-4xl mx-auto">
+        <div class="max-w-5xl mx-auto">
           <h2 class="text-4xl font-bold mb-8 text-center">
             <span class="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
               Sobre Mim
             </span>
           </h2>
 
-          <div class="grid md:grid-cols-2 gap-8">
-            <div class="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-xl p-8 hover:border-blue-400/50 transition-colors">
-              <div class="text-blue-400 mb-4">
-                <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+          <!-- Main Description -->
+          <div class="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-2xl p-8 mb-8">
+            <div class="flex items-start gap-4 mb-6">
+              <div class="bg-blue-500/20 p-3 rounded-lg">
+                <svg class="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
                 </svg>
               </div>
-              <h3 class="text-xl font-semibold mb-3">Desenvolvimento</h3>
-              <p class="text-gray-400">
-                Especializado em criar aplicações web modernas e responsivas com as melhores práticas de desenvolvimento
+              <div class="flex-1">
+                <h3 class="text-2xl font-bold mb-4 text-white">Minha Jornada</h3>
+                <p class="text-gray-300 leading-relaxed mb-4">
+                  Com <span class="text-blue-400 font-semibold">4 anos de experiência</span> na área de desenvolvimento, iniciei minha carreira focado em <span class="text-purple-400 font-semibold">back-end</span>, construindo APIs robustas e sistemas escaláveis.
+                </p>
+                <p class="text-gray-300 leading-relaxed">
+                  Ao longo do tempo, evoluí naturalmente para <span class="text-emerald-400 font-semibold">desenvolvedor Full Stack</span>, dominando tanto o front-end quanto o back-end. Hoje, atuo na <span class="text-blue-400 font-semibold">criação de novos sistemas do zero</span>, <span class="text-yellow-400 font-semibold">otimização de APIs</span> para melhor performance e <span class="text-red-400 font-semibold">reforço da segurança</span> de aplicações web.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skills Grid -->
+          <div class="grid md:grid-cols-3 gap-6">
+            <!-- Back-end Expertise -->
+            <div class="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-xl p-6 hover:border-purple-400/50 transition-colors group">
+              <div class="text-purple-400 mb-4">
+                <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"></path>
+                </svg>
+              </div>
+              <h3 class="text-lg font-semibold mb-2 group-hover:text-purple-400 transition-colors">Back-end</h3>
+              <p class="text-gray-400 text-sm">
+                Especialista em PHP, Laravel e Node.js. Desenvolvimento de APIs REST robustas e escaláveis.
               </p>
             </div>
 
-            <div class="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-xl p-8 hover:border-purple-400/50 transition-colors">
-              <div class="text-purple-400 mb-4">
-                <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path>
+            <!-- Front-end Skills -->
+            <div class="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-xl p-6 hover:border-blue-400/50 transition-colors group">
+              <div class="text-blue-400 mb-4">
+                <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                 </svg>
               </div>
-              <h3 class="text-xl font-semibold mb-3">Design</h3>
-              <p class="text-gray-400">
-                Focado em criar interfaces intuitivas e experiências de usuário que encantam e convertem
+              <h3 class="text-lg font-semibold mb-2 group-hover:text-blue-400 transition-colors">Front-end</h3>
+              <p class="text-gray-400 text-sm">
+                Proficiente em Vue.js, React e Nuxt. Criação de interfaces modernas e responsivas.
+              </p>
+            </div>
+
+            <!-- Performance & Security -->
+            <div class="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-xl p-6 hover:border-red-400/50 transition-colors group">
+              <div class="text-red-400 mb-4">
+                <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                </svg>
+              </div>
+              <h3 class="text-lg font-semibold mb-2 group-hover:text-red-400 transition-colors">Segurança & Performance</h3>
+              <p class="text-gray-400 text-sm">
+                Implementação de segurança avançada e otimização de performance em aplicações.
               </p>
             </div>
           </div>
